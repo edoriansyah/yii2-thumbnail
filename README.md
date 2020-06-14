@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist edoriansyah/yii2-thumbnail "*"
+composer require --prefer-dist edoriansyah/yii2-thumbnail "*"
 ```
 
 or add
@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 <?= \edoriansyah\bs\Thumbnail::widget([
     'imgSource' => 'http://placehold.it/240x200',
-    'title' => 'This is title thumbnail',
+    'title' => 'Title thumbnail',
     'description' => 'This is description thumbnail',
 ]); ?>
 ```
