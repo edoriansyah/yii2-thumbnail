@@ -28,4 +28,9 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \edoriansyah\bs\AutoloadExample::widget(); ?>```
+<?= \edoriansyah\bs\Thumbnail::widget([
+    'imgSource' => 'http://placehold.it/240x200',
+    'title' => 'This is title thumbnail',
+    'description' => 'This is description thumbnail',
+]); ?>
+```
